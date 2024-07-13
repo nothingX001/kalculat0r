@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>kalCuLaT0r</title>
+</head>
+<body>
+
+    <div>
+        <h1 class="play">pLAY!</h1>
+        <video class="uhoh" width="320" height="240" controls>
+            <source src="canyoufindhim.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="playSound2(); appendToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="playSound2(); appendToDisplay('7')">7</button>
+            <button onclick="playSound2(); appendToDisplay('8')">8</button>
+            <button onclick="playSound2(); appendToDisplay('9')">9</button>
+            <button onclick="playSound2(); appendToDisplay('-')" class="operator-btn">-</button>
+            <button onclick="playSound2(); appendToDisplay('4')">4</button>
+            <button onclick="playSound2(); appendToDisplay('5')">5</button>
+            <button onclick="playSound2(); appendToDisplay('6')">6</button>
+            <button onclick="playSound2(); appendToDisplay('*')" class="operator-btn">*</button>
+            <button onclick="playSound2(); appendToDisplay('1')">1</button>
+            <button onclick="playSound2(); appendToDisplay('2')">2</button>
+            <button onclick="playSound2(); appendToDisplay('3')">3</button>
+            <button onclick="playSound2(); appendToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="playSound2(); appendToDisplay('0')">0</button>
+            <button onclick="playSound2(); appendToDisplay('.')">.</button>
+            <button onclick="playSound(); calculate()">=</button>
+            <button onclick="playSound3(); clearDisplay()" class="operator-btn">C</button>
+        </div>
+    </div>
+
+    <div id="cashapp">
+        <h3>send to  Alien:</h3>
+        <p>$bigbrudda1969</p>
+        <img src="IMG_5914-3 2 copy.PNG" width="200px" height="350px" class="wtf">
+        <p>me alien,</p>
+        <h2 class="notScam">Not Scam</h2>
+    </div>
+
+    <audio id="clickSound" src="Allan.wav"></audio>
+    <audio id="clickSound2" src="fart-sound.wav"></audio>
+    <audio id="clickSound3" src="bikinibottom.mp3"></audio>
+    <script src="index.js"></script>
+</body>
+</html>
