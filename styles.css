@@ -89,3 +89,8 @@ button:active{
 .notScam{
     color: red;
 }
+
+img{
+    width: 500px;
+    height:500px;
+}
