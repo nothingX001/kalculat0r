@@ -139,6 +139,7 @@ header {
     
     #main-content {
         justify-content: center;
+        width: auto;
     }
     
     #aside-content {
