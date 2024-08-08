@@ -138,6 +138,7 @@ body{
     #aside-content {
         justify-content: center;
         padding-left: 100px;
+        padding-bottom: 400px;
     }
     
     #calculator{
