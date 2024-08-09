@@ -58,7 +58,7 @@ body {
         background-color: hsl(308, 100%, 15%);
         border-radius: 50px;
         max-width: 500px;
-        overflow: hidden;
+        overflow: scroll;
     }
     
     #display {
